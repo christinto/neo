@@ -41,6 +41,13 @@ PM> Install-Package Neo
 
 For more information about how to build DAPPs for NEO, please read the [documentation](http://docs.neo.org/en-us/sc/introduction.html)|[文档](http://docs.neo.org/zh-cn/sc/introduction.html).
 
+Install-Package Neo -Version 2.3.3
+Error:
+NuGetNoActiveSolution,NuGet.PackageManagement.PowerShellCmdlets.InstallPackageCommand
+In the package manager console, make sure to select the default project.
+
+If there are no choices, it means that there is no solution file created for your project. When I tested this, I was able to fix the problem by pressing Ctrl + Shift + S (Save all). Visual studio then prompted me to select a directory for my .sln file and NuGet then successfully recognized my solution/project.
+
 How to Contribute
 --------
 
