@@ -5,6 +5,8 @@ NEO is the use of blockchain technology and digital identity to digitize assets,
 
 For more information about NEO, please read the [White Paper](http://docs.neo.org/en-us/index.html)|[白皮书](http://docs.neo.org/zh-cn/index.html).
 
+http://docs.neo.org/en-us/sc/getting-started-java.html
+
 Supported Platforms
 --------
 
